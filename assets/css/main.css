@@ -2502,9 +2502,8 @@ button,
   border: 0;
 }
 #header h1 a img {
-  height: 48px;
+  height: 3.5em;
   width: auto;
-  padding-top: 4px;
 }
 #header nav {
   font-size: 0.8em;
@@ -2587,6 +2586,10 @@ button,
   }
   #header nav a[href="#menu"]:hover, #header nav a[href="#menu"]:active {
     background-color: inherit;
+  }
+  #header nav a img {
+    height: 2.75em;
+    width: auto;
   }
 }
 @media screen and (max-width: 480px) {
@@ -2763,6 +2766,10 @@ body.is-menu-visible #menu .inner {
   opacity: 1;
   margin: 0 0 1.3em 0;
   text-align: center;
+}
+#banner .logo img {
+  width: 100%;
+  max-width: 90%;
 }
 #banner h2 {
   -moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, -moz-filter 0.25s ease;

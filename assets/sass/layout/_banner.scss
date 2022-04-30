@@ -24,6 +24,11 @@
 			margin: 0 0 (_size(element-margin) * 0.65) 0;
 
 			text-align: center;
+
+			img {
+				width: 100%;
+				max-width: 90%;
+			}
 		}
 
 		h2 {
